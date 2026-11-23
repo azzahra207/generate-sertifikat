@@ -111,9 +111,10 @@
 /* logo */
 .logo { display: inline-flex; align-items: center; gap: 8px; font-weight: 800; font-size: 19px; color: var(--sk-text); text-decoration: none; letter-spacing: -.3px; }
 .logo:hover { color: var(--sk-text); }
-.logo i { width: 30px; height: 30px; border-radius: 9px; background: linear-gradient(135deg, var(--sk-primary), #14b8a6); display: grid; place-items: center; color: #fff; font-style: normal; font-size: 15px; position: relative; }
-.logo i::after { content: ""; position: absolute; right: -3px; top: -3px; width: 9px; height: 9px; border-radius: 50%; background: var(--sk-accent); border: 2px solid var(--bs-body-bg); }
-.logo span { color: var(--sk-primary); }
+/* gambar logo: dipotong ke bagian lambang saja (tulisan MySerti di bawahnya diganti teks HTML) */
+.logo img { width: 42px; height: auto; aspect-ratio: 1 / .8; object-fit: cover; object-position: top; }
+.logo b { color: #0494e6; }
+.logo span { color: #f2c800; }
 
 /* tombol tema */
 .sk-theme .dropdown-item.active { background: var(--sk-sel); color: var(--sk-text); font-weight: 600; }
