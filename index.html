@@ -23,11 +23,8 @@ html { scroll-behavior: smooth; scroll-padding-top: 84px; }
 .lp-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--sk-accent-tint); color: var(--sk-text); font-weight: 700; font-size: 13px; padding: 6px 12px; border-radius: 99px; }
 .lp-badge i { color: var(--sk-accent); }
 .lp-hero h1 { font-size: clamp(34px, 4.6vw, 54px); font-weight: 800; line-height: 1.08; letter-spacing: -1.5px; margin: 18px 0; }
-.lp-hero h1 mark { background: none; color: var(--sk-primary); padding: 0; position: relative; }
-.lp-hero h1 mark::after { content: ""; position: absolute; left: 0; right: 0; bottom: 2px; height: 10px; background: var(--sk-accent); opacity: .35; border-radius: 4px; z-index: -1; }
+.lp-hero h1 mark { background: none; color: var(--sk-primary); padding: 0; }
 .lp-lead { font-size: 18px; color: var(--sk-muted); max-width: 520px; }
-.lp-checks { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 22px; font-size: 14px; font-weight: 600; }
-.lp-checks i { color: var(--sk-primary); }
 
 /* animasi alur: data -> sertifikat */
 .lp-flow { background: var(--sk-surface); border: 1px solid var(--sk-line); border-radius: 1.25rem; box-shadow: var(--sk-shadow); padding: 18px; }
@@ -116,11 +113,6 @@ footer a:hover { color: var(--sk-primary); }
       <div class="d-flex flex-wrap gap-2 mt-4">
         <a class="btn btn-primary btn-lg px-4" href="login.html#register"><i class="bi bi-magic me-2"></i>Buat Sertifikat</a>
         <a class="btn btn-light border btn-lg px-4" href="#cara-kerja">Lihat cara kerjanya</a>
-      </div>
-      <div class="lp-checks">
-        <span><i class="bi bi-check-circle-fill me-1"></i>Tanpa install aplikasi</span>
-        <span><i class="bi bi-check-circle-fill me-1"></i>Data dari Excel / CSV</span>
-        <span><i class="bi bi-check-circle-fill me-1"></i>Unduh PDF, PNG, ZIP</span>
       </div>
     </div>
 
