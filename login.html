@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Masuk | MySerti</title>
+<link rel="icon" href="img/logo.webp">
 <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="css/style.css">
@@ -12,8 +13,7 @@
 .auth { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; }
 .auth-side { background: linear-gradient(150deg, #0f766e, #0b4f49); color: #fff; padding: 48px; display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden; }
 .auth-side::after { content: ""; position: absolute; width: 380px; height: 380px; border-radius: 50%; border: 40px solid rgb(245 158 11 / .18); right: -120px; bottom: -120px; }
-.auth-side .logo, .auth-side .logo:hover, .auth-side .logo span { color: #fff; }
-.auth-side .logo i { background: #fff; color: #0f766e; }
+.auth-side .logo, .auth-side .logo:hover, .auth-side .logo b, .auth-side .logo span { color: #fff; }
 .auth-side h2 { font-weight: 800; font-size: 34px; line-height: 1.15; letter-spacing: -.8px; max-width: 420px; }
 .auth-step { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 18px; position: relative; z-index: 1; }
 .auth-step b { width: 32px; height: 32px; border-radius: 10px; background: #f59e0b; color: #1f1400; display: grid; place-items: center; flex: none; }
@@ -28,7 +28,7 @@
 <main class="auth">
   <!-- panel kiri: penjelasan singkat -->
   <section class="auth-side">
-    <a class="logo" href="index.html"><i>M</i><b>My<span>Serti</span></b></a>
+    <a class="logo" href="index.html"><img src="img/logo.webp" alt=""><b>My<span>Serti</span></b></a>
     <div>
       <h2 class="mb-4">Ratusan sertifikat, cukup diatur sekali.</h2>
       <div class="auth-step"><b>1</b><div><div class="fw-bold">Upload desain</div><span>Desain sendiri atau pilih template</span></div></div>
@@ -42,7 +42,7 @@
   <section class="auth-form">
     <div class="position-absolute top-0 end-0 p-3" data-theme-toggle></div>
     <div class="auth-card">
-      <a class="logo d-lg-none mb-4" href="index.html"><i>M</i><b>My<span>Serti</span></b></a>
+      <a class="logo d-lg-none mb-4" href="index.html"><img src="img/logo.webp" alt=""><b>My<span>Serti</span></b></a>
       <h1 class="h3 fw-bold mb-1" id="title">Selamat datang kembali</h1>
       <p class="text-muted mb-4" id="subtitle">Masuk untuk melanjutkan project sertifikatmu.</p>
       <form id="form" novalidate>
